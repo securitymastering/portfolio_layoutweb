@@ -9,6 +9,9 @@
 </head>
 <body>
     <div class="cadastro-mae">
+        <div class="card-form">
+
+        
 
     
     <img class="cadastro-logo" src="img/image 1.svg" alt="logo" width="100" height="100">
@@ -45,6 +48,7 @@
 <br>
 <button class="cadastro-btn" type="submit">Cadastrar</button>
 </form>
+</div>
 </div>
 </body>
 </html>
