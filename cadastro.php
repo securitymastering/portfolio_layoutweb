@@ -33,7 +33,7 @@
                  <input class="cadastro-input3" type="radio" id="genero-feminino" name="genero" value="Feminino">
                  <label class="cadastro_label1" for="genero-feminino">Feminino</label>
                  <input class="cadastro-input3" type="radio" id="genero-outro" name="genero" value="Outro">
-                 <label class="cadastro_label1" for="genero-outro">Outro</label>
+                 <label class="cadastro_label1" for="genero-outro">Outros</label>
                  </div>
                  <br>
             <label class="cadastro_label2" for="data-nascimento">Data de Nascimento:</label>
