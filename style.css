@@ -9,7 +9,7 @@
 
 body,html{
     width: 100%;
-    height:100%;
+    height:110%;
 }
 
 body{
@@ -41,9 +41,8 @@ h1{
     background:#FFFEFC;
     width:50%;
     height: 70%;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-radius: 10px;
-    
 }
 .flex-row{
     display: flex;
@@ -58,6 +57,7 @@ h1{
     position: relative;
     display: grid;
     margin-left: -57%;
+    margin-top: 1rem;
 }
 
 .cadastro_label1{
@@ -70,12 +70,14 @@ h1{
     position: relative;
     display: grid;
     margin-left: -48%;
+    margin-top: 1rem;
 }
 
 .cadastro_label3{
     position: relative;
     display: grid;
     margin-left: -50%;
+    margin-top: 1rem;
 }
 
 .cadastro-form{
@@ -95,13 +97,15 @@ background: rgba(244, 244, 244, 0.94);
     width: 50px;
     height: 60px;
     }
-
+.move-btn{
+    margin-bottom: 2rem;
+}
 .cadastro-btn{
 width: 80px;
 height: 40px;
 border-radius: 4px;
 background: linear-gradient(90deg,#000000,#3533cd);
-margin-top: 3rem;
+margin-top: 4rem;
 color: #FFFEFC;
 border: none;
 outline: none;
