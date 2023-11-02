@@ -1,11 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Righteous&family=Titillium+Web:wght@200;300&display=swap');
 
-
-:root{
-
-}
-
 *{
     margin:0;
     padding:0;
@@ -49,15 +44,26 @@ h1{
     margin-top: 4rem;
     border-radius: 10px;
 }
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
 .cadastro_label{
     position: relative;
-    justify-content: left;
+    display: grid;
+    column-gap: 10rem;
+}
+
+.cadastro_label1{
+    position: relative;
+    display: grid;
+    column-gap: 5rem;
 }
 .cadastro-form{
     margin-top: 3rem;
     position: relative;
-    justify-content: space-between;
-    gap:3rem;   
+    justify-content: space-between; 
 }
 
 .cadastro-input{
@@ -66,19 +72,21 @@ height: 40px;
 border-radius: 4px;
 border: 1px solid #7B90FF;
 background: rgba(244, 244, 244, 0.94);
-gap:3rem;
 }
 
 .cadastro-btn{
 width: 80px;
 height: 40px;
 border-radius: 4px;
-background: #5787E6;
+background: linear-gradient(90deg,#000000,#3533cd);
 margin-top: 3rem;
+color: #FFFEFC;
+border: none;
+outline: none;
 }
 
 .cadastro-btn:hover{
-    background: #FFFEFC;
+    background:#3533cd;
     border: 1px solid #7B90FF;
     cursor: pointer;
 }
