@@ -13,7 +13,7 @@
     <div class="card-form">
         <img class="cadastro-logo" src="img/image 1.svg" alt="logo" width="100" height="100">
         <h1>Cadastro de Usuário</h1>
-        <form class="cadastro-form" action="#" method="post">
+        <form class="cadastro-form" name="form-cadastro" action="#" method="post">
              <label class="cadastro_label" for="nome">Nome:</label>
              <input class="cadastro-input" type="text" id="nome" name="nome" required>
              <br>
@@ -27,7 +27,7 @@
              <input class="cadastro-input" type="password" id="confirmar-senha" name="confirmar-senha" required>
              <br>
              <div class="flex-row">
-                 <label class="cadastro_label1">Gênero:</label>
+                 <label class="cadastro_label1" for="genero">Gênero:</label>
                  <input class="cadastro-input3" type="radio" id="genero-masculino" name="genero" value="Masculino">
                  <label class="cadastro_label1" for="genero-masculino">Masculino</label>
                  <input class="cadastro-input3" type="radio" id="genero-feminino" name="genero" value="Feminino">
@@ -46,11 +46,20 @@
             <input class="cadastro-input" type="text" id="pais" name="pais">
             <br>
             <div class="move-btn">
-                <button class="cadastro-btn" type="submit">Cadastrar</button>
+                <button OnClick="myButtonSubmited()" name="cadastro-button" class="cadastro-btn" type="submit">Cadastrar</button>
             </div>
 
         </form>
     </div>
 </div>
+<script>
+    
+function myButtonSubmited(){
+
+            alert("Preencher dados do Fomulário!");
+            
+    }
+
+</script>
 </body>
 </html>
