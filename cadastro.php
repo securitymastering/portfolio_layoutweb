@@ -56,7 +56,7 @@
     
 function myButtonSubmited(){
 
-            alert("Preencher dados do Fomulário!");
+            alert(" O Formulário foi enviado com sucesso!");
             
     }
 
