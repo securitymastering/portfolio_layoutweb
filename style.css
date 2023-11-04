@@ -135,29 +135,30 @@ outline: none;
         align-items: center;
     }
     .card-form{
-        width:60%;
+        width:50%;
         height: 70%;
     }
     .flex-row{
-        margin-left: -2%;
+        margin-left: -22%;
     }
     
     .cadastro_label{
-        margin-left: -64%;
+        margin-left: -70%;
     }
     
     .cadastro_label1{
         position: relative;
         display: grid;
         column-gap: 5rem;
+        
     }
     
     .cadastro_label2{
-        margin-left: -42%;
+        margin-left: -56%;
     }
     
     .cadastro_label3{
-        margin-left: -48%;
+        margin-left: -59%;
     }
     
     .cadastro-form{
@@ -166,7 +167,7 @@ outline: none;
     }
     
     .cadastro-input{
-    width: 300px;
+    width: 500px;
     height: 40px;
     }
     
@@ -176,7 +177,7 @@ outline: none;
         }
 }
 /*tablet*/
-@media screen and (max-width:768px) and (min-width:1024px){
+@media screen and (max-width:1024px) and (min-width:768px){
     .cadastro-mae{
         display: flex;
         flex-direction: column;
@@ -185,11 +186,11 @@ outline: none;
         align-items: center;
     }
     .card-form{
-        width:100%;
+        width:70%;
         height: 70%;
     }
     .flex-row{
-        margin-left: -2%;
+        margin-left: -8%;
     }
     
     .cadastro_label{
@@ -203,11 +204,11 @@ outline: none;
     }
     
     .cadastro_label2{
-        margin-left: -42%;
+        margin-left: -48%;
     }
     
     .cadastro_label3{
-        margin-left: -48%;
+        margin-left: -51%;
     }
     
     .cadastro-form{
@@ -216,57 +217,7 @@ outline: none;
     }
     
     .cadastro-input{
-    width: 200px;
-    height: 40px;
-    }
-    
-    .cadastro-input1{
-        width: 50px;
-        height: 60px;
-        }
-}
-/*celular large*/
-@media screen and (max-width:767px) and (min-width:481px){
-    .cadastro-mae{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-    }
-    .card-form{
-        width:90%;
-        height: 70%;
-    }
-    .flex-row{
-        margin-left: -2%;
-    }
-    
-    .cadastro_label{
-        margin-left: -64%;
-    }
-    
-    .cadastro_label1{
-        position: relative;
-        display: grid;
-        column-gap: 5rem;
-    }
-    
-    .cadastro_label2{
-        margin-left: -42%;
-    }
-    
-    .cadastro_label3{
-        margin-left: -48%;
-    }
-    
-    .cadastro-form{
-        margin-top: 2rem; 
-        column-gap: 2rem;
-    }
-    
-    .cadastro-input{
-    width: 300px;
+    width: 400px;
     height: 40px;
     }
     
