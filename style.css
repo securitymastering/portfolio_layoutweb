@@ -135,7 +135,7 @@ outline: none;
         align-items: center;
     }
     .card-form{
-        width:90%;
+        width:60%;
         height: 70%;
     }
     .flex-row{
@@ -185,7 +185,7 @@ outline: none;
         align-items: center;
     }
     .card-form{
-        width:90%;
+        width:100%;
         height: 70%;
     }
     .flex-row{
@@ -216,7 +216,7 @@ outline: none;
     }
     
     .cadastro-input{
-    width: 300px;
+    width: 200px;
     height: 40px;
     }
     
